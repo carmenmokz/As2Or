@@ -53,7 +53,7 @@ public class APL_MAIN {
 
             // Creamos el objeto DATE en el controller utilizando el DTO
             CONTROLADOR.getControl().createDate(dFecha);
-
+            
             // Ejecutamos la funcionalidad segun la opcion elegida por el usuario
             // dicha opcion se encuentra en el DTO.
             Object obj = CONTROLADOR.getControl().execQuery();
